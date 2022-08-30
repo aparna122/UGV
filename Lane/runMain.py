@@ -52,7 +52,7 @@ if __name__ == '__main__':
     # imgPath = (('/').join(Model_path.split('/')[:-2]))+image_path
     cap = cv2.VideoCapture('roots.mp4')
     # data = ['IMG','predicted_steering_val']
-    mx , mn = 80,-80
+    mx , mn = 180,-180
     while True:
         font = cv2.FONT_HERSHEY_SIMPLEX
         fontScale = 0.5
