@@ -301,6 +301,5 @@ def uploadDate(batch_size,epoch,totaltime):
         # data = [batch_size,epoch,totaltime]
         df = pd.DataFrame(columns=(["batch_size","epoch","time(sec)"]))
         df.to_csv('timeanalysis_CPU.csv',index=False)
-        print("A")
         a = uploadDate(batch_size,epoch,totaltime)
         return a
