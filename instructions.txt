@@ -23,8 +23,7 @@ pip install -r requirements.txt
 pip install pip==22.1.2
 
 ###download the DataCollected folder and unzip it in Lane folder
-https://drive.google.com/file/d/1ruJ6ZJiqA6NAzkhhVRsv5_7deiYxOH4U/view?usp=sharing
-
+https://drive.google.com/drive/folders/1scWy-myyAPP6MhZwJ2w9j9JuZrmdV4Mm?usp=sharing
 
 ###Run the training.py file
 python training.py
