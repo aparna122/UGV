@@ -38,3 +38,15 @@ python runMain.py
 
 ###to deactivate the environment
 deactivate 
+
+
+
+#if you have anaconda installed you can also make conda environment
+conda create -n <my_env_name>
+
+#to activate conda environment
+conda activate <my_env_name>
+#install pip in your conda env
+conda install pip 
+
+#rest all process is same
