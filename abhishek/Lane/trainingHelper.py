@@ -289,7 +289,7 @@ def dataGen(imagesPath, steeringList, batchSize, trainFlag):
 
 def uploadDate(batch_size,epoch,totaltime):
     if os.path.exists('timeanalysis_CPU.csv'):
-        df = pd.read_csv('/home/aparna/Desktop/UGV/abhishek/abhishek/Lane/timeanalysis_CPU.csv')
+        df = pd.read_csv('timeanalysis_CPU.csv')
         df = df.append({"batch_size":batch_size,"epoch":epoch,"time(sec)":totaltime},ignore_index=True)
         # df.loc[len(df)-1]=
         # df = df.append([batch_size,epoch,totaltime],ignore_index=True)
