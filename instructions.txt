@@ -4,12 +4,12 @@ UGV
 https://github.com/aparna122/UGV
 
 
-###install virtual environment
-pip install virtualenv
+###install virtual environment for python 3.9
+pip apt install python3.9-venv
 
 
 ###create environment
-virtualenv <my_env_name>
+python3.9 -m venv <my_venv_name>
 
 
 ###to activate new environment
@@ -20,7 +20,7 @@ source <my_env_name>/bin/activate
 pip install -r requirements.txt
 ###all the required packages are installed 
 ### if you get "wheels not build for.." error lower the pip version
-pip install pip==22.1.2
+pip install pip==21.1.2
 
 ###download the DataCollected folder and unzip it in Lane folder
 https://drive.google.com/drive/folders/1scWy-myyAPP6MhZwJ2w9j9JuZrmdV4Mm?usp=sharing
